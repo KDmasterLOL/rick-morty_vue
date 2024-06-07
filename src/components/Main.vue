@@ -26,5 +26,4 @@ watch(page, async (new_value, old_value) => {
   <Pagination @change-page="changePage" :count-pages="count_pages" :current-page="page" :from="from" :to="to" :of="of">
   </Pagination>
   <ListCharacters :characters="characters"></ListCharacters>
-  <pre>{{ JSON.stringify(response, null, 2) }}</pre>
 </template>
