@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/test_task_vue/',
+  base: '/rick-morty_vue/',
   plugins: [
     vue(),
   ],
